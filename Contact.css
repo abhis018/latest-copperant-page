@@ -1,0 +1,93 @@
+.Contact{
+    width: 100%;
+    background-color: crimson;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    background-image: url("../latest Copperants/public/alone.png");
+    background-color: #f36223;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+}
+.inner-Contact{
+    margin-top: 6.146vw;
+    margin-bottom: 6.146vw;
+    margin-left: 8.958vw;
+    margin-right: 8.958vw;
+}
+.Contact .contact-title{
+    text-align: center;
+}
+.Contact .contact-title div{
+    font-size: 1.851rem;
+    line-height: 2.333rem;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "BuenosAiresTrialWeb";
+}
+.Contact .contact-body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 4.375vw;
+}
+.contact-body .information{
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+    flex: 1;
+    /* flex-wrap: wrap; */
+}
+
+.todo{
+    margin-top: 4.688vw;
+}
+.contact-body .information div{
+    font-size: 1rem;
+    line-height: 1.555rem;
+    color: #f4c2b5;
+    font-weight: 400;
+}
+.info-submit{
+    align-items: center;
+    text-align: center;
+    margin-top: 4.479vw;
+}
+.info-submit button{
+    width: 10.148rem;
+    height: 3.037rem;
+    border-radius: 1.518rem;
+    filter: drop-shadow(0px 20px 38px rgba(0,0,0,0.19));
+    background-color: #ffffff;
+    border: none;
+    font-size: 1rem;
+    line-height: 1.555rem;
+    color: #151515;
+    font-weight: 700;
+}
+
+
+
+@media only screen and (max-width: 430px) {
+    .Contact .contact-title div{
+        font-size: 1rem;
+        line-height: 1.333rem;
+        font-weight: bold;
+        font-family: "BuenosAiresTrialWeb";
+    }
+    .contact-body .information div{
+        font-size: 0.7rem;
+        line-height: 1rem;
+        font-weight: 400;
+    }
+    .info-submit button{
+        width: 3.148rem;
+        height: 1.037rem;
+        border-radius: 1rem;
+        filter: drop-shadow(0px 20px 38px rgba(0,0,0,0.19));
+        font-size: 0.5rem;
+        line-height: 1rem;
+        font-weight: 700;
+    }
+}
