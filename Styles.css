@@ -767,3 +767,26 @@
         font-weight: 700;
     }
 }
+@media only screen and (max-width: 325px) {
+    .Heading .title-head{
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+    }
+    .logo img{
+        width: 6rem;
+        height: 2.5rem;
+    }
+    .About-title .title-subhead{
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+    }
+    .Mission-body{
+        font-size: 0.4rem;
+        line-height: 0.4rem;
+    }
+    .Mission-title{
+        font-size: 0.7rem;
+        line-height: 1.629rem;
+        font-weight: 700;
+    }
+}
