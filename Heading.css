@@ -59,7 +59,6 @@
     align-items: center;
 }
 .menu div{
-    /* padding-right: 1.704rem; */
     margin-right: 1.979vw;
     color: #feffff;
 }
@@ -73,14 +72,8 @@
     filter: drop-shadow(0px 8px 17.5px rgba(0,0,0,0.21));
     font-weight: 600;
     color: #2c2a29;
-    /* text-align: center; */
     border: none;
 }
-
-
-
-
-
 .Heading-title{
     display: flex;
     flex-direction: column;
@@ -121,6 +114,516 @@
 
 
 
+
+
+
+.About{
+    background-color: #feffff;
+    font-family: 'Mukta Mahee';
+}
+.About hr{
+    background-color: #f7f1ee;
+    height: 0.2vw;
+    border: none;
+}
+.inner-About{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 8.229vw;
+    margin-bottom: 5.729vw;
+    margin-left: 8.958vw;
+    margin-right: 8.958vw;
+}
+.About-title{
+    width: 100%;    
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.About-title .title-head{
+    font-size: 1.148rem;
+    line-height: 0.8rem;
+    color: #c2c2c2;
+    font-weight: 700;
+}
+.About-title .title-subhead{
+    font-size: 5rem;
+    line-height: 5rem;
+    margin-top: 1.719vw;
+    font-weight: bold;
+    font-family: "BuenosAiresTrialWeb";
+    color: #3b5054;
+}
+.title-subhead span{
+    color: #f36223;
+}
+.About-body{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    margin-left: 8.229vw;
+    
+}
+.About-body .paragraph{
+    font-size: 1rem;
+    line-height: 1.703rem;
+    font-weight: 400;
+    color: #4d4c4c;
+}
+.About-ques{
+    font-size: 1.407rem;
+    line-height: 5.44rem;
+    color: #272727;
+    font-weight:700;
+}
+
+
+
+
+
+
+
+.Experience{
+    width: 100%;
+    background-color: #feffff;
+    font-family: 'Mukta Mahee';
+}
+.inner-Experience{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4.948vw;
+    margin-bottom: 4.948vw;
+    margin-left: 8.958vw;
+    margin-right: 8.958vw;
+}
+.experience-title{
+    display: flex;
+    flex-direction: column;
+    color: #3b5054;
+}
+.experience-title .title-head{
+    font-size: 1.851rem;
+    line-height: 5.44rem;
+    font-weight: 700;
+}
+.experience-title .title-head span{
+    color: #dd5214;
+}
+.experience-title .title-subhead{
+    font-size: 1rem;
+    line-height: 1.703rem;
+    font-weight: 400;
+    color: #4d4c4c;
+    font-family: 'Mukta Mahee';
+}
+.experience-body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+.experience-list{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.958vw;
+}
+.experience-industry{
+    display: flex;
+    flex-direction: row;
+    padding-top: 2.083vw;
+    text-align: left;
+}
+.experience-industry img{
+    width: 2rem;
+    height: 2rem;
+}
+.industry-name{
+    font-size: 1.22rem;
+    line-height: 2.444rem;
+    color: #272727;
+    font-weight: 400;
+    padding-left: 1.406vw;
+}
+
+
+
+
+
+
+.Mission{
+    width: 100%;
+    font-family: 'Mukta Mahee';
+    background-image: url("../latest Copperants/public/mountain2.png"),linear-gradient(-32deg, #4b3a3a 0%, #745243 100%);
+    background-blend-mode:color-burn;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.inner-Mission{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 7.448vw;
+    margin-bottom: 7.448vw;
+    margin-left: 8.958vw;
+    margin-right: 8.958vw;
+}
+.Mission-title{
+    flex: 1;
+    font-size: 1.148rem;
+    line-height: 4.629rem;
+    color: #5e5e5e;
+    font-weight: 700;
+}
+.Mission-body{
+    flex: 4;
+    font-size: 1.407rem;
+    line-height: 2.296rem;
+    color: #ffffff;
+    text-align: left;
+    font-family: "BuenosAiresTrialWeb";
+    align-items: center;
+    margin-top: 1.4rem;
+}
+
+
+
+
+
+
+
+.Services{
+    width: 100%;
+    background-color: #feffff;
+    font-family: 'Mukta Mahee';
+    display: flex;
+    flex-direction: column;
+}
+.inner-Services{
+    margin-top: 2.208vw;
+    margin-bottom: 2.208vw;
+    margin-left: 8.958vw;
+    margin-right: 8.958vw;
+}
+.Services .services-title{
+    font-size: 1.148rem;
+    line-height: 1.629rem;
+    color: #b2b2b2;
+    font-weight: 700;
+}
+.Services .services-body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.services-body .services-item{
+    display: flex;
+    flex-direction: column;
+}
+.services-item-body{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3.438vw;
+}
+.services-item-body div img{
+    margin-right: 1.823vw;
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-top: 1rem;
+}
+.services-details{
+    display: flex;
+    flex-direction: column;
+}
+.services-item-body .services-details .services-topic{
+    font-size: 1.222rem;
+    line-height: 5.444rem;
+    font-weight: 700;
+    color: #272727;
+}
+.services-item-body .services-details p{
+    font-size: 1rem;
+    line-height: 1.555rem;
+    color: #272727;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+.Clients{
+    width: 100%;
+    background-color: #f5f0ec;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inner-Clients{
+    margin-top: 3.083vw;
+    margin-bottom: 3.083vw;
+    margin-left: 8.958vw;
+    margin-right: 8.958vw;
+}
+.Clients .clients-moto{
+    font-size: 1.148rem;
+    line-height: 1.555rem;
+    color: #272727;
+    font-weight: 400;
+}
+.sponsors{
+    margin-top: 1.5vw;
+}
+
+
+
+
+
+
+
+
+
+
+.Contact{
+    width: 100%;
+    background-color: crimson;
+    display: flex;
+    flex-direction: column;
+    background-image: url("../latest Copperants/public/alone.png");
+    background-color: #f36223;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+}
+.inner-Contact{
+    margin-top: 6.146vw;
+    margin-bottom: 6.146vw;
+    margin-left: 8.958vw;
+    margin-right: 8.958vw;
+}
+.Contact .contact-title{
+    text-align: center;
+}
+.Contact .contact-title div{
+    font-size: 1.851rem;
+    line-height: 2.333rem;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "BuenosAiresTrialWeb";
+}
+.Contact .contact-body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 4.375vw;
+}
+.contact-body .information{
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+    flex: 1;
+}
+
+.todo{
+    margin-top: 4.688vw;
+}
+.contact-body .information div{
+    font-size: 1rem;
+    line-height: 1.555rem;
+    color: #f4c2b5;
+    font-weight: 400;
+}
+.info-submit{
+    align-items: center;
+    text-align: center;
+    margin-top: 4.479vw;
+}
+.info-submit button{
+    width: 10.148rem;
+    height: 3.037rem;
+    border-radius: 1.518rem;
+    filter: drop-shadow(0px 20px 38px rgba(0,0,0,0.19));
+    background-color: #ffffff;
+    border: none;
+    font-size: 1rem;
+    line-height: 1.555rem;
+    color: #151515;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+.Footer{
+    width: 100%;
+    background-color: #1f1e1e;
+}
+.inner-Footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-top: 2.865vw;
+    margin-bottom: 2.865vw;
+    margin-left: 8.958vw;
+    margin-right: 8.958vw;
+}
+.footer-logo img{
+    width: 7.259rem;
+    height: 6.518rem;
+}
+.Footer .footer-body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.Address{
+    font-size: 1rem;
+    line-height: 1.555rem;
+    color: #b2b2b2;
+    margin-left: 2.865vw;
+    margin-top: 1.614vw;
+}
+.footer-icon{
+    margin-top: 3.385vw;
+}
+.Address-title div{
+    font-weight: 600;
+}
+.Address-body{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    color: #777777;
+}
+.social-media{
+    margin-left: 1.604rem;
+}
+.social-media-contents{
+    display: flex;
+    flex-direction: column;
+}
+.footer-icon .social-media-contents .media-text{
+    font-size: 1rem;
+    line-height: 1.555rem;
+    font-weight: 400;
+    color: #777777;
+}
+.social-media img{
+    padding-right: 0.5rem;
+    width: 1.66rem;
+    height: 1.66rem;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 830px) {
+    .Mission-body{
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    .Mission-title{
+        font-size: 0.9rem;
+        line-height: 3.629rem;
+        font-weight: 700;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .About-title .title-subhead{
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+    .About-body .paragraph{
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+    }
+    .About-ques{
+        font-size: 1rem;
+        line-height: 4rem;
+    }
+    .About-title .title-head{
+        font-size: 1rem;
+        line-height: 4rem;
+    }
+}
+
+@media only screen and (max-width: 630px) {
+    .experience-title .title-head{
+        font-size: 1.5rem;
+        line-height: 2rem;
+        font-weight: 700;
+    }
+    .experience-title .title-subhead{
+        margin-top: 1rem;
+        font-size: 0.6rem;
+        line-height: 1rem;
+        font-weight: 400;
+    }
+    .industry-name{
+        font-size: 1rem;
+        line-height: 1.444rem;
+        font-weight: 400;
+        padding-left: 1.406vw;
+    }
+    .experience-industry img{
+        width: 1rem;
+        height: 1rem;
+    }
+}
+
+@media only screen and (max-width: 585px) {
+    .Mission-body{
+        font-size: 0.6rem;
+        line-height: 1rem;
+    }
+    .Mission-title{
+        font-size: 0.8rem;
+        line-height: 2.629rem;
+        font-weight: 700;
+    }
+}
+
+
+@media only screen and (max-width: 520px) {
+    .About-title .title-subhead{
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+    .About-body .paragraph{
+        font-size: 0.6rem;
+        line-height: 1rem;
+    }
+    .About-ques{
+        font-size: 0.8rem;
+        line-height: 3rem;
+    }
+    .About-title .title-head{
+        font-size: 0.8rem;
+        line-height: 3rem;
+    }
+}
+
 @media only screen and (max-width: 430px) {
     .Heading-title .title-head{
         font-size: 2.5rem;
@@ -160,5 +663,107 @@
         margin-bottom: 14.375vw;
         margin-top: 3.125vw;
     }
+    .Services .services-title{
+        font-size: 0.8rem;
+        line-height: 2.629rem;
+        font-weight: 700;
+    }
+    .services-item-body .services-details .services-topic{
+        font-size: 0.8rem;
+        line-height: 3.444rem;
+        font-weight: 700;
+    }
+    .services-item-body .services-details p{
+        font-size: 0.5rem;
+        line-height: 0.8rem;
+        font-weight: 400;
+    }
+    .services-item-body div img{
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-top: 1rem;
+    }
+    .Clients .clients-moto{
+        font-size: 0.8rem;
+        line-height: 1rem;
+        font-weight: 400;
+    }
+    .Contact .contact-title div{
+        font-size: 1rem;
+        line-height: 1.333rem;
+        font-weight: bold;
+        font-family: "BuenosAiresTrialWeb";
+    }
+    .contact-body .information div{
+        font-size: 0.7rem;
+        line-height: 1rem;
+        font-weight: 400;
+    }
+    .info-submit button{
+        width: 3.148rem;
+        height: 1.037rem;
+        border-radius: 1rem;
+        filter: drop-shadow(0px 20px 38px rgba(0,0,0,0.19));
+        font-size: 0.5rem;
+        line-height: 1rem;
+        font-weight: 700;
+    }
+    .footer-logo img{
+        width: 4rem;
+        height: 3.518rem;
+    }
+    .Address{
+        font-size: 0.5rem;
+        line-height: 0.8rem;
+    }
+    .Address-body{
+        font-size: 0.4rem;
+        line-height: 0.7rem;
+    } 
+    .social-media img{
+        width: 0.8rem;
+        height: 0.8rem;
+    }
+    .footer-icon .social-media-contents .media-text{
+        font-size: 0.4rem;
+        line-height: 0.7rem;
+        font-weight: 400;
+    }
+    .social-media img{
+        padding-right: 0.1rem;
+    }
+    .social-media{
+        margin-left: 0.3rem;
+    }
 }
 
+@media only screen and (max-width: 390px) {
+    .About-title .title-subhead{
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+    }
+    .About-body .paragraph{
+        font-size: 0.5rem;
+        line-height: 0.8rem;
+    }
+    .About-ques{
+        font-size: 0.68rem;
+        line-height: 2rem;
+    }
+    .About-title .title-head{
+        font-size: 0.6rem;
+        line-height: 2rem;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .Mission-body{
+        font-size: 0.5rem;
+        line-height: 0.5rem;
+    }
+    .Mission-title{
+        font-size: 0.7rem;
+        line-height: 1.629rem;
+        font-weight: 700;
+    }
+}
